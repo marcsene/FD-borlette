@@ -1,0 +1,31 @@
+.appbar {
+  height: 56px;
+  background: #1976d2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.appbar__icon {
+  font-size: 22px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  color: white;
+}
+.appbar__title {
+  flex: 1;
+  font-size: 20px;
+}
+.appbar__actions span {
+  margin-left: 10px;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: red;
+  z-index: 9999;
+}
