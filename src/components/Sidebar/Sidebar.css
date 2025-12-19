@@ -119,3 +119,34 @@
 .sidebar.open {
   left: 0;
 }
+@media (max-width: 768px) {
+  .sidebar {
+    width: 85vw;
+    max-width: 320px;
+    background: #fff;
+  }
+
+  .item {
+    font-size: 16px;
+    padding: 14px 16px;
+    color: #111;
+  }
+
+  .item:hover {
+    background: #f1f1f1;
+  }
+
+  .section-title {
+    font-size: 13px;
+    margin: 16px 16px 6px;
+    color: #999;
+  }
+}
+.sidebar {
+  position: fixed;
+  z-index: 1001;
+}
+
+.sidebar-overlay {
+  z-index: 1000;
+}
