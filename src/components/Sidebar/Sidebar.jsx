@@ -1,15 +1,18 @@
 import "./Sidebar.css";
+import logo from "../../assets/logo.jpeg";
 
 export default function Sidebar({ open, onClose }) {
   return (
     <>
-      {/* Overlay */}
       {open && <div className="sidebar-overlay" onClick={onClose} />}
 
       <aside className={`sidebar ${open ? "open" : ""}`}>
         <div className="sidebar-header">
-          <div className="avatar" />
-          <span className="user">Prueba de ING.Marcsene</span>
+          <div className="avatar">
+            <img src={logo} alt="FD Borlette" />
+          </div>
+
+          <span className="user">FD Borlette</span>
           <button className="power">⏻</button>
         </div>
 
