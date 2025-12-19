@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/log.png";
 
 export default function Sidebar({ open, onClose }) {
   return (
