@@ -1,5 +1,5 @@
 import "./AppBar.css";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/log.png";
 
 export default function AppBar({ title = "Ventas", onMenu }) {
   return (
